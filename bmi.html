@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="/css/bmi.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+   
+</head>
+<body>
+    
+    <div class="contain">
+        <div class = "rect">
+          <div class = "header">
+          <h1>BMI Calculator</h1>
+          </div>
+        <div class = "option">
+          <a href = "bmi.html">
+          <button class = "buttons" id = "buttonp"> Standard </button></a>
+          <a href = "bmi2.html"><button class = "buttons" id = "buttonm"> Meteric </button></a>
+        </div>
+          
+          <div class = "calculator">
+            <div class = "calculatorItem">
+              
+              <label for="height"> Height(in): </label>
+              <input type="text" id="height" maxlength="4" size="4" >
+              <br>
+              <br>
+              <div class="calculatorItem">
+              <label for="weight"> Weight(lb):</label>
+              <input type="text" id="weight" maxlength="4" size="4">
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class ="cateogory">
+                <h2>BMI Categories:</h2>
+                <h4>Underweight = <18.5</h4>
+                <h4>l weight = 18.5–24.9</h4>
+                <h4> Overweight = 25–29.9</h4>
+                <h4> Obesity = BMI of 30 or greater</h4>
+                
+              </div>
+            </div>
+      <div class = "computebutton">
+        <button class = "button" id="compute">Compute BMI</button>
+          </div>
+          <div class = "result">
+            <p id="bmicalculation"></p>
+          </div>
+          
+      </div>
+      <script src="/js/bmi.js"></script>
+</body>
+</html>

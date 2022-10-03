@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fitness and wellness</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link href="./resources/sunset.mp4">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <style>
+            #myVideo {
+  width: 100%; 
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+#home {
+    height: 100%;
+    width: 100%;
+}
+
+        </style>
+    </head>
+
+
+
+    <body>
+        
+<div id="home"> 
+    <video autoplay muted loop id="myVideo">
+        <source src="/video/sunset.mp4" type="video/mp4" />
+      </video>
+      
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand text-dark" href="#">StayFit</a>
+  
+      <!-- Toggle button -->
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-mdb-toggle="collapse"
+    data-mdb-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <i class="fa fa-bars"></i>
+  </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="/FitnessTv">Fitness Tv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark"href="/MentalWellnessTv">Mental wellness Tv</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark  "href="/hangout">Hangout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark  "href="/BMIcalc">BMI Calculator</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  
+           
+    </div>
+          <script>var video = document.getElementById("myVideo");</script>
+          <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+></script>
+        <script src="" async defer></script>
+    </body>
+</html>

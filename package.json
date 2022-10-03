@@ -1,0 +1,30 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "it's a fitness and wellness webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "dotenv": "^16.0.2",
+    "env-install": "^1.0.0",
+    "express": "^4.18.1",
+    "jquery": "^3.6.1",
+<<<<<<< HEAD
+    "mdb-ui-kit": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+=======
+    "mdb-ui-kit": "^5.0.0",
+    "twilio": "^3.82.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.2"
+>>>>>>> d17ffad3239e462c6984dae19fe1beb347d1dd0a
+  }
+}
